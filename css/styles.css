@@ -399,20 +399,20 @@ body {
 /* стр.Портфолио/фильтры-кнопки */
 
 .buttons-nav {
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: center;
   margin-bottom: 34px;
-  padding-bottom: 16px;
-  text-align: center;
-  min-width: 611px;
+
   border-color: grey;
 }
 .filters-list {
+  display: flex;
   padding-inline-start: 0;
-}
+  width: 611px;
 
-.filters-list:not(:last-child) {
-  margin-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
 .button-flex:not(:last-child) {
@@ -427,7 +427,8 @@ body {
   font-size: 16px;
   line-height: 1.62;
   border-radius: 4px;
-  padding: 6px 21px;
+  padding: 6px 22px;
+  border: 0;
 }
 
 .filter-primary:hover,
