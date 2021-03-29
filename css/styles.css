@@ -404,7 +404,7 @@ body {
   margin-bottom: 34px;
   padding-bottom: 16px;
   text-align: center;
-  width: 611px;
+  min-width: 611px;
   border-color: grey;
 }
 .filters-list {
