@@ -401,9 +401,7 @@ body {
 .buttons-nav {
   display: flex;
   align-items: center;
-  margin-bottom: 34px;
-
-  border-color: grey;
+  margin-bottom: 50px;
 }
 .filters-list {
   display: flex;
